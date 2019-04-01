@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+
+.wrapper {
+    background: #abcdef;
+    position: relative;
+    height: 100%;
+    perspective: 800px;
+    transform-style: preserve-3d;
+}
+
+img {
+    width: 400px;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(50% - 150px);
+    transition: transform 0.5s ease-in-out;
+}
